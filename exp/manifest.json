@@ -1,0 +1,14 @@
+{
+  "name": "My Extension",
+  "description": "to download youtube videos",
+  "version": "1.0",
+  "author": "rockyDevil",
+  "manifest_version": 2,
+  "web_accessible_resources": ["src/youtubedl.js"],
+  "content_scripts":[
+    {
+      "matches": ["https://www.youtube.com/watch*"],
+      "js": ["src/load.js"]
+    }
+  ]
+}

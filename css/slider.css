@@ -1,0 +1,14 @@
+#slider
+{
+margin-top: 25px;
+ width: 555px;
+ padding: 4px;
+ height: 51px;
+margin-bottom: 105px;
+}
+#carouselExampleCaptions
+{
+	border: 1.5px solid #fff;
+	z-index: 1;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
